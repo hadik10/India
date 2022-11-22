@@ -62,7 +62,7 @@ $('#btnLoadData').click(function() {
     
     greetMessage = "<br><h4>" + displayCustomerName(firstName, lastName) + "</h4>";
     greetMessage += "<h6>" + displayEmail(customerEmail) + "</h6>";
-    greetMessage += "<br><h6>We will notify you as soon as stock updates are made.<br>Thank you for your patience and kindness.</h6>";
+    greetMessage += "<br><h6>I hope you liked my ugly website.<br>Thank you for trying out my form.</h6>";
   
 
     console.log("obtained the user greeting " + greetMessage); 
