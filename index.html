@@ -1,0 +1,248 @@
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+ <title>Miscellaneous Form</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="./styles/style.css">
+</head>
+  
+
+<body>
+<!-- navbar content -->
+  <nav class="navbar navbar-custom navbar-expand-sm navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Hardik Gupta</a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/hadik10/India" target="_blank"><b>Source Code</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+            href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fougheoke.github.io%2Findia-lab%2F#l190c13" target="_blank"><b>
+            Page Validity</b></a>
+          </li>
+        </ul>
+      </div>
+      <button id="btnLoadData" class="btn btn-secondary">Load JSON</button>
+    </div>
+  </nav>
+
+
+  <header class="container-fluid row">
+    <div class="col-md-6 offset-md-3">
+      <!-- Waitlist Title Info -->
+      <div class="p-2 text-center bg-light">
+        <h3 class="mb-3">Miscellaneous Form for<b> CIS-376</b></h3>
+        <h6 class="mb-3">We are creating a random Form For completing India assignement 2023<br>
+                     </h6>
+      </div>
+      <!-- Waitlist Title Info -->
+    </div>
+  </header>
+
+
+
+<div class="container">
+<div class="row">
+<div class="card form-card">
+  <div class="card-body mb-3">
+  
+    <p style="text-align: center; font-weight: bold">
+      Try filling up the whole form and grade me accordingly
+    </p>
+
+    <!--form starts here -->
+    <!-- class="needs-validation" novalidate -->
+    <form id="form">
+      <div class="mb-3">
+        <label for="first-name" class="form-label">First Name</label>
+        <input
+          required
+          type="text"
+          class="form-style"
+          id="first-name"
+          placeholder="Jesselin">
+      </div>
+
+      <div class="mb-3">
+        <label for="last-name" class="form-label">Last Name</label>
+        <input
+          required
+          type="text"
+          class="form-style"
+          id="last-name"
+          placeholder="Unger">
+
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input
+          required
+          type="email"
+          class="form-style"
+          id="email"
+          placeholder="junger@gmail.com">
+      </div>
+      <!--
+      <div class="mb-3">
+        <label for="password">Password</label>
+        <input 
+          required 
+          class="form-style"
+          type="password" 
+          id="password" 
+          name="password"
+          placeholder="This does not make sense">
+      </div>
+      -->
+      <div class="mb-3 form-check">
+        <input 
+        type="checkbox" 
+        class="form-check-input" 
+        id="exampleCheck1">
+        <label for="exampleCheck1" class="form-check-label" >Try Out the Checkbox Button</label>
+      </div>
+
+      <div class="mb-3">
+        <h6><b>Enter Your Birthday</b> </h6>
+        <div id="restockHelp" class="form-text">
+          <br></div>
+        <input 
+          required 
+          class="form-style"
+          type="month" 
+          id="date" 
+          name="date"
+          min="2022-01" 
+          max="2032-12"
+          value="2023-01">
+      </div>
+      
+      <hr>
+
+        <div class="mb-3">
+
+          <!-- Dress Texture Options -->
+          <label for="dressType" class="form-label"><b>Do you like to watch movies?</b></label><br>
+          <input type="radio" id="dressType" value="regular" name="dressType">
+          <label for="dressType">Yes a lot!</label><br>
+          <input type="radio" id="shimmerType" value="shimmer" name="dressType">
+          <label for="dressType">No really!</label><br>
+
+          <hr>
+
+          <!-- Dress color indication tags -->
+<!--
+          <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <small style="font-size: medium;">Heather Grey |</small>
+              <small style="font-size: medium;">Onyx</small>
+              </div>
+            <div class="col-md-8"> 
+              <small style="font-size: medium;">Marble |</small>
+              <small style="font-size: medium;">Oxide |</small>
+              <small style="font-size: medium;">Graphite |</small>
+              <small style="font-size: medium;">Hot Pink |</small>
+              <small style="font-size: medium;">Wine |</small>
+              <small style="font-size: medium;">Cocoa</small>
+              </div>
+          </div>
+          </div>
+
+          <!-- dress color options -->
+          <!--
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <i style="font-size:65px; color: #c6cbcc" class="fa">&#xf111;</i>
+              <i style="font-size:65px; color: #2d2d2f" class="fa">&#xf111;</i>
+            
+          </div>
+        <div class="col-md-8"> 
+          <i style="font-size:65px; color: #f0eee9" class="fa">&#xf111;</i> 
+          <i style="font-size:65px; color: #5e4c40" class="fa">&#xf111;</i>
+          <i style="font-size:65px; color: #373c41" class="fa">&#xf111;</i>
+          <i style="font-size:65px; color: #af556a" class="fa">&#xf111;</i>
+          <i style="font-size:65px; color: #401414" class="fa">&#xf111;</i>
+          <i style="font-size:65px; color: #49352e" class="fa">&#xf111;</i>
+        </div>
+            
+
+          </div>
+        </div>
+-->
+          <!-- Dress Restock Options -->
+          <label for="dressColor" class="form-label"><b>Choose your favorite Place in United States</b></label>
+            <select id="dressColor" class="form-select" name="dress">
+              <option value="" disabled selected>Favorite Place in United States</option>
+              <optgroup label="North">
+              <option value="New York Cities">New York</option>
+              <option value="Delware Cities">Delware</option>
+            </optgroup>
+            <optgroup label="South">
+              <option value="Atlanta Cities">Atlanta</option>
+               <option value="Texas Cities">Texas</option>
+              <!--
+              <option value="Hot Pink Dress Size">Hot Pink</option>
+              <option value="Wine Dress Size">Wine</option>
+              <option value="Cocoa Dress Size">Cocoa</option>
+-->
+              </optgroup>
+            </select>
+
+            <!-- Size Options disabled until dress color is chosen. Options displayed in JS script -->
+            <label for="dress" class="form-label"><b>Size</b></label>
+              <select id="dress" class="form-select" name="dress" disabled>
+                <option>Select your favorite place to travel</option>
+              </select>
+      </div>
+      <input type="reset" value="Clear Form" class="btn btn-secondary">
+  
+      
+    </form>
+      <!-- end of form -->
+
+      <!-- Submit Form -->
+      <div class="mb-3" style="text-align: center; margin-top: 0.5rem">
+        <button id="submitButton" class="btn btn-primary" style="width: 120px;" type="submit">Submit</button>
+        </div>
+
+        <!-- customer greeting output -->
+      <span id="greetOutput"> 
+
+      </span>
+      <!-- card body ends -->
+    </div>
+
+    <!-- form card ends -->
+</div>
+
+<!-- row ends -->
+</div>
+
+</div>
+<!-- end of container -->
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script  src="./scripts/script.js"></script>
+<script src="./scripts/ajax.js"></script>
+
+</body>
+</html>
