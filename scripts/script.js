@@ -1,9 +1,9 @@
 $(function(){
   let dresses = [
-      ["Heather Grey Dress Size", ["XXS"]],
-      ["Onyx Dress Size", ["XXS", "XS", "2X"]],
-      ["Marble Dress Size", ["XXS", "XS", "S", "M"]],
-      ["Oxide Dress Size", ["XXS", "XS", "S", "M", "L", "XL", "2X"]],
+      ["New York Cities", ["Queens","Brooklyn"]],
+      ["Delware Cities", ["Wilmington", "Dover"]],
+      ["Atlanta Cities", ["Sandy Springs", "Decatur",]],
+      ["Texas Cities", ["Austin", "Houston"]],
       ["Graphite Dress Size", ["XXS", "XS", "S", "M", "L", "XL", "2X", "3X", "4X"]],
       ["Hot Pink Dress Size", ["XXS", "XS", "S", "M", "L"]],
       ["Wine Dress Size", ["XXS", "XS"]],
